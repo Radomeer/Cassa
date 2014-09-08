@@ -1,0 +1,5 @@
+<article class="intro">
+	<h2>Comtemporary Art Conference</h2>
+	<p>Lorem ipsum dolor Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis qui obcaecati autem numquam nihil porro dolorem ea, molestiae commodi tempora a dignissimos reprehenderit debitis officia sed quasi eaque delectus nesciunt. consectetur adipisicing elit. Velit omnis repellat quidem sunt eaque praesentium ad reprehenderit. Distinctio dolorum illum, necessitatibus iure voluptas, ipsam error quaerat at totam magni porro. sit amet, consectetur adipisicing elit. perferendis accusamus modi dolorum aliquid esse error dolores consequatur facilis.</p>
+	<p class="hidden-sm">Nesciunt laudantium, molestiae, tempora eligendi qui saepe est voluptatum doloremque! Blanditiis  beatae</p>
+</article><!--intro-->
