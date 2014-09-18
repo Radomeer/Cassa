@@ -69,15 +69,21 @@
 		);
 
 
-		/*custom nav menus*/
+	}
+
+	/*custom nav menus*/
+	function register_my_menu() {
 		register_nav_menus(array(
 
 			'top'	=>__('Top Header Navigation', 'cassamilano'),
 			'footer'=> __('Footer Navigation', 'cassamilano'),
 			)
 		);
-
 	}
+
+	add_action('init','register_my_menu');	
+
+
 ?>
 
 
@@ -106,18 +112,17 @@
 
 				/*Enqueuing Styles and Scripts*/
 
-	function cassa_scripts() {
-
+function cassa_scripts() {
+	if( !is_admin()) {
 		wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/_/css/bootstrap.css');
-	
+
 		wp_enqueue_style('my-style' , get_template_directory_uri() . '/_/css/mystyles.css');
 
 		wp_enqueue_script('bootstrap-script', get_template_directory_uri() . '/_/js/bootstrap.js');
 
 		wp_enqueue_script('my-script', get_template_directory_uri() . '/_/js/myscript.js');
-
-
 	}
+}
 
 	add_action ('wp_enqueue_scripts', 'cassa_scripts');
 ?>
